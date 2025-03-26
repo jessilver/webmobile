@@ -6,6 +6,17 @@ table, thead, tbody {
     border-collapse: collapse;
 }
 
+tr:hover {
+    transition: all 0.5s;
+    background-color: #ccc;
+}
+
+td:hover {
+    transition: all 0.5s;
+    background-color: #5a5a5a;
+    color: white;
+}
+
 thead th{
     background-color: #e3e3e3;
     text-align: center;
@@ -15,4 +26,23 @@ th, td {
     border: 1px solid #ccc;
     padding: 8px;
     width: 100px;
+}
+
+#my_form {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.box {
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 }

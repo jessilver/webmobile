@@ -25,51 +25,142 @@
     <main>
         <p>content</p>
         <img src="img/gato.jpg" title="Gato" width="25%" height="auto" alt="Imagem de gato">
+        <a href="javascript:void(0)" id="hello-world">Click Me</a>
+    
+        <ul>
+            <li>Minha</li>
+            <li>Lista</li>
+            <li>Não</li>
+            <li>Ordenada</li>
+        </ul>
+    
+        <ol>
+            <li>Minha</li>
+            <li>Lista</li>
+            <li>Ordenada</li>
+        </ol>
+    
+        <table>
+            <caption>Minha tabela</caption>
+            <thead>
+                <tr>
+                    <th>Aa</th>
+                    <th>Be</th>
+                    <th>Ce</th>
+                    <th>De</th>
+                    <th>Ee</th>
+                    <tbody>
+                        <tr>
+                            <td>aa</td>
+                            <td>be</td>
+                            <td>ce</td>
+                            <td>de</td>
+                            <td>ee</td>
+                        </tr>
+                        <tr>
+                            <td>efi</td>
+                            <td>ge</td>
+                            <td>ahga</td>
+                            <td>ii</td>
+                            <td>jota</td>
+                        </tr>
+                    </tbody>
+                </tr>
+            </thead>
+        </table>
+    
+        <div id="my_form">
+            <form action="/teste" method="post" class="form">
+    
+                <div class="box">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                </div>
+                
+                <div class="box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+    
+                <div class="box">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password">
+                </div>
+    
+                <div class="box">
+                    <label for="gender">Gênero</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Masculino</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Feminino</label>
+                </div>
+    
+                <div class="box">
+                    <label for="accept">Aceito os termos</label>
+                    <input type="checkbox" name="accept" id="accept">
+                </div>
+    
+                <div class="box">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea>
+                </div>
+    
+                <div class="box">
+                    <label for="options">Escolha uma opção</label>
+                    <select name="options" id="options">
+                        <option value="option1">Opção 1</option>
+                        <option value="option2">Opção 2</option>
+                        <option value="option3">Opção 3</option>
+                    </select>
+                </div>
+    
+                <div class="box">
+                    <label for="birthdate">Data de Nascimento</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+    
+                <div class="box">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Digite seu telefone">
+                </div>
+    
+                <div class="box">
+                    <label for="file">Arquivo</label>
+                    <input type="file" name="file" id="file">
+                </div>
+    
+                <div class="box">
+                    <label for="color">Cor Favorita</label>
+                    <input type="color" name="color" id="color">
+                </div>
+
+                <div class="box">
+                    <label for="cheese">cheese</label>
+                    <input list="cheese" name="cheese" id="cheeses">
+                    <datalist id="cheese">
+                        <option value="Cheddar">
+                        <option value="Edam">
+                        <option value="Gouda">
+                        <option value="Gruyere">
+                        <option value="Manchego">
+                        <option value="Stilton">
+                    </datalist>
+                </div>
+    
+                <div class="box">
+                    <button type="submit">submit</button>
+                </div>
+
+                <div class="box">
+                    <button type="reset">reset</button>
+                </div>
+
+                <div class="box">
+                    <button type="button" onclick="soma(12,12)">soma</button>
+                </div>
+            </form>
+        </div>
     </main>
-
-    <a href="javascript:void(0)" id="hello-world">Click Me</a>
-
-    <ul>
-        <li>Minha</li>
-        <li>Lista</li>
-        <li>Não</li>
-        <li>Ordenada</li>
-    </ul>
-
-    <ol>
-        <li>Minha</li>
-        <li>Lista</li>
-        <li>Ordenada</li>
-    </ol>
-
-    <table>
-        <caption>Minha tabela</caption>
-        <thead>
-            <tr>
-                <th>Aa</th>
-                <th>Be</th>
-                <th>Ce</th>
-                <th>De</th>
-                <th>Ee</th>
-                <tbody>
-                    <tr>
-                        <td>aa</td>
-                        <td>be</td>
-                        <td>ce</td>
-                        <td>de</td>
-                        <td>ee</td>
-                    </tr>
-                    <tr>
-                        <td>efi</td>
-                        <td>ge</td>
-                        <td>ahga</td>
-                        <td>ii</td>
-                        <td>jota</td>
-                    </tr>
-                </tbody>
-            </tr>
-        </thead>
-    </table>
 
 
     <footer>
